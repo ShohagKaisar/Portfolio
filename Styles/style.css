@@ -1,41 +1,4 @@
-/* Common Shared Styles */
 *{
-  font-family: 'Open Sans';
-}
-.text-primary{
-  color: #FD6E0A;
-}
-
-.btn-primary{
-  border-radius: 5px;
-  background: #FD6E0A;
-  border: none;
-  color: #FFFFFF;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  padding: 15px 35px;
-}
-
-/* Nav Related Style */
-
-nav {
-  display: flex;
-}
-.nav-title{
-color: #181818;
-font-weight: 800;
-font-size: 45px;
-}
-nav > ul{
-  display: flex;
-}
-nav li{
-  list-style: none;
-  margin-right: 50px;
-}
-nav a{
-  text-decoration: none;
-  color: rgb(34, 31, 31);
-
+  margin: 0;
+  padding: 0;
 }
