@@ -1,4 +1,115 @@
 *{
   margin: 0;
   padding: 0;
+  font-family: Open Sans;
 }
+/* Header Section Start  */
+header{
+  width: 1600px;
+  height: 800px;
+  /* border: 3px solid red; */
+  margin: 0 auto;
+  background-image: url(../images/developer.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-position-x: 30px;
+}
+
+/* Nav Section Start */
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0 0 180px ;
+}
+.title-name{
+font-size: 45px;
+font-weight: 800;
+line-height: 61px;
+text-align: left;
+}
+.title-name span{
+  color: rgb(253, 110, 10);
+}
+nav ul{
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+nav li{
+  list-style: none;
+  margin-right: 50px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: rgb(71, 71, 71);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+}
+.btn{
+  border-radius: 5px;
+  background: rgb(253, 110, 10);
+  border: none;
+  padding: 18px 36px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 700;
+}
+/* Nav Section end */
+.banner-div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 180px;
+}
+.info-banner{
+  width: 800px;
+  height: 356px;
+}
+.info-banner h3{
+color: rgb(71, 71, 71);
+font-size: 45px;
+font-weight: 600;
+line-height: 61px;
+}
+.info-banner h1{
+color: rgb(24, 24, 24);
+font-size: 65px;
+font-weight: 700;
+}
+.info-banner p{
+color: rgb(117, 117, 117);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+margin: 25px 0;
+}
+.btn-contact{
+color: rgb(253, 110, 10);
+font-size: 20px;
+font-weight: 700;
+line-height: 27px;
+text-align: center;
+padding: 17px 35px;
+border: 1px solid rgb(253, 110, 10);;
+margin-left: 25px;
+background: none;
+}
+.owner-ing{
+  background-image: url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  width: 1036px;
+  display: flex;
+  justify-content: end;
+  margin-top: 20px;
+}
+.owner-ing img{
+ width: 550px;
+ height: 676px;
+
+}
+/* Header Section :end */
+
+/* About DIV :start */
