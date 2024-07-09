@@ -7,19 +7,20 @@
 header{
   width: 1600px;
   height: 800px;
-  /* border: 3px solid red; */
   margin: 0 auto;
+  background: rgb(255, 248, 243);
   background-image: url(../images/developer.png);
   background-repeat: no-repeat;
   background-position: left center;
   background-position-x: 30px;
+  margin-bottom: 130px;
 }
 
 /* Nav Section Start */
 nav{
   display: flex;
   justify-content: space-between;
-  margin: 50px 0 0 180px ;
+  padding: 50px 0 0 180px ;
 }
 .title-name{
 font-size: 45px;
@@ -96,6 +97,9 @@ border: 1px solid rgb(253, 110, 10);;
 margin-left: 25px;
 background: none;
 }
+.info-banner button i{
+  margin: 10px;
+}
 .owner-ing{
   background-image: url(../images/header_bg.png);
   background-repeat: no-repeat;
@@ -103,7 +107,7 @@ background: none;
   width: 1036px;
   display: flex;
   justify-content: end;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .owner-ing img{
  width: 550px;
@@ -113,3 +117,54 @@ background: none;
 /* Header Section :end */
 
 /* About DIV :start */
+.about-section{
+  width: 1140px;
+  height: 550px;
+  border-radius: 10px;
+  background: rgb(255, 248, 243);
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-div-container{
+  width: 827px;
+  height: 288px;
+}
+.about-details{
+  margin-bottom: 30px;
+}
+.about-details h2{
+  color: rgb(24, 24, 24);
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+}
+.about-details p{
+  color: rgb(117, 117, 117);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+}
+.info-div{
+  display: flex;
+  justify-content: space-around;
+}
+.info-div h4{
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+  color: rgb(117, 117, 117);
+}
+.info-div p{
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: rgb(71, 71, 71);
+}
